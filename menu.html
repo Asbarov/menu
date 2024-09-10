@@ -1,0 +1,9 @@
+{% load menu_tags %}
+
+{% draw_menu 'main_menu' as menu_items %}
+
+<ul>
+    {% for item in menu_items %}
+        {% draw_menu_item item request.path %}
+    {% endfor %}
+</ul>
