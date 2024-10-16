@@ -2,8 +2,8 @@ import telebot
 import requests
 import json
 
-API='16bb65b00ce5fbb2c617f27800ba1d3a'
-bot=telebot.TeleBot('8145565443:AAHUs4lI5PgkCfEEm7k-O1-fVHXeaaPujY8')
+API=API_BOT
+bot=telebot.TeleBot('TOKEN_BOT')
 
 
 @bot.message_handler(commands=['start'])
